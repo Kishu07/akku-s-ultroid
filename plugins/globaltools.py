@@ -393,7 +393,7 @@ async def _(e):
     elif is_gbanned(userid):
         return await eod(
             xx,
-            "`User is already gbanned and added to gbanwatch.`",
+            "`User is already gaybanned and added to gaybanwatch.`",
             time=4,
         )
     if e.client._dialogs:
@@ -425,7 +425,7 @@ async def _(e):
     gban(userid, reason)
     if isinstance(user, User):
         await e.client(BlockRequest(int(userid)))
-    gb_msg = f"**#Gbanned** {name} `in {chats} chats and added to gbanwatch!`"
+    gb_msg = f"**#Gbanned** {name} `in {chats} chats and added to gaybanwatch!`"
     if reason:
         gb_msg += f"\n**Reason** : {reason}"
     await xx.edit(gb_msg)

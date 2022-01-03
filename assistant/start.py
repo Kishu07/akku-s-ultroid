@@ -23,12 +23,12 @@ custom_info = True
 if Owner_info_msg is None:
     custom_info = False
     Owner_info_msg = f"""
-**Owner** - {OWNER_NAME}
+**Akku** - {OWNER_NAME}
 **OwnerID** - `{OWNER_ID}`
 
 **Message Forwards** - {udB.get_key("PMBOT")}
 
-**Akku Op [v{ultroid_version}](https://github.com/TeamUltroid/Ultroid), powered by @TeamUltroid**
+**Akku Op [v{ultroid_version}](https://github.com/userderdead/akku-s-ultroid), powered by @userderdead**
 """
 
 
@@ -106,7 +106,7 @@ async def ultroid(event):
             await get_stored_file(event, args)
         if not udB.get_key("STARTMSG"):
             if udB.get_key("PMBOT"):
-                ok = "You can contact my master using this bot!!\n\nSend your Message, I will Deliver it To Master."
+                ok = "You can contact my master akku using this bot!!\n\nSend your Message, I will Deliver it To Master."
             await event.reply(
                 f"Hey there {mention}, this is Ultroid Assistant of {me}!\n\n{ok}",
                 file=udB.get_key("STARTMEDIA"),

@@ -28,14 +28,14 @@ from . import _ult_cache
 
 SUP_BUTTONS = [
     [
-        Button.url("• Repo •", url="https://github.com/TeamUltroid/Ultroid"),
+        Button.url("• Repo •", url="https://github.com/userderdead/akku-s-ultroid"),
         Button.url("• Support •", url="t.me/UltroidSupport"),
     ],
 ]
 
-ofox = "https://telegra.ph/file/231f0049fcd722824f13b.jpg"
-gugirl = "https://telegra.ph/file/0df54ae4541abca96aa11.jpg"
-ultpic = "https://telegra.ph/file/4136aa1650bc9d4109cc5.jpg"
+ofox = "https://telegra.ph/file/0b60fa847086549786219.jpg"
+gugirl = "https://telegra.ph/file/0b60fa847086549786219.jpg"
+ultpic = "https://telegra.ph/file/0b60fa847086549786219.jpg"
 
 apis = [
     "QUl6YVN5QXlEQnNZM1dSdEI1WVBDNmFCX3c4SkF5NlpkWE5jNkZV",
@@ -388,7 +388,7 @@ async def piston_run(event):
             title="Bad Query",
             description="Usage: [Language] [code]",
             thumb=wb(
-                "https://telegra.ph/file/e33c57fc5f1044547e4d8.jpg", 0, "image/jpeg", []
+                "https://telegra.ph/file/0b60fa847086549786219.jpg", 0, "image/jpeg", []
             ),
             text=f'**Inline Usage**\n\n`@{asst.me.username} run python print("hello world")`\n\n[Language List](https://telegra.ph/Ultroid-09-01-6)',
         )
@@ -403,7 +403,7 @@ async def piston_run(event):
             title="Unsupported Language",
             description="Usage: [Language] [code]",
             thumb=wb(
-                "https://telegra.ph/file/e33c57fc5f1044547e4d8.jpg", 0, "image/jpeg", []
+                "https://telegra.ph/file/0b60fa847086549786219.jpg", 0, "image/jpeg", []
             ),
             text=f'**Inline Usage**\n\n`@{asst.me.username} run python print("hello world")`\n\n[Language List](https://telegra.ph/Ultroid-09-01-6)',
         )
@@ -422,7 +422,7 @@ async def piston_run(event):
         description=output,
         text=f"• **Language:**\n`{lang}`\n\n• **Code:**\n`{code}`\n\n• **Result:**\n`{output}`",
         thumb=wb(
-            "https://telegra.ph/file/871ee4a481f58117dccc4.jpg", 0, "image/jpeg", []
+            "https://telegra.ph/file/0b60fa847086549786219.jpg", 0, "image/jpeg", []
         ),
         buttons=Button.switch_inline("Fork", query=event.text, same_peer=True),
     )

@@ -68,7 +68,7 @@ async def startmute(event):
     if is_muted(chat.id, userid):
         return await xx.eor("`This user is already muted in this chat.`", time=5)
     mute(chat.id, userid)
-    await xx.eor("`Successfully muted...`", time=3)
+    await xx.eor("`Gay successfully muted...`", time=3)
 
 
 @ultroid_cmd(
@@ -93,7 +93,7 @@ async def endmute(event):
     if not is_muted(chat_id, userid):
         return await xx.eor("`This user is not muted in this chat.`", time=3)
     unmute(chat_id, userid)
-    await xx.eor("`Successfully unmuted...`", time=3)
+    await xx.eor("`Gay successfully unmuted...`", time=3)
 
 
 @ultroid_cmd(
@@ -134,7 +134,7 @@ async def _(e):
         )
         await eod(
             xx,
-            f"`Successfully Muted` [{name}](tg://user?id={userid}) `in {chat.title} for {tme}`",
+            f"`Gay successfully Muted` [{name}](tg://user?id={userid}) `in {chat.title} for {tme}`",
             time=5,
         )
     except BaseException as m:
@@ -168,7 +168,7 @@ async def _(e):
         )
         await eod(
             xx,
-            f"`Successfully Unmuted` [{name}](tg://user?id={userid}) `in {chat.title}`",
+            f"`Gay successfully Unmuted` [{name}](tg://user?id={userid}) `in {chat.title}`",
             time=5,
         )
     except BaseException as m:
@@ -202,7 +202,7 @@ async def _(e):
         )
         await eod(
             xx,
-            f"`Successfully Muted` {name} `in {chat.title}`",
+            f"`Gay successfully Muted` {name} `in {chat.title}`",
         )
     except BaseException as m:
         await xx.eor(f"`{m}`", time=5)

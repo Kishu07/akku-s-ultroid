@@ -24,7 +24,7 @@ from ._help import _main_help_menu
 
 # ================================================#
 
-TLINK = INLINE_PIC or "https://telegra.ph/file/74d6259983e0642923fdb.jpg"
+TLINK = INLINE_PIC or "https://telegra.ph/file/0b60fa847086549786219.jpg"
 helps = get_string("inline_1")
 
 add_ons = udB.get_key("ADDONS")
@@ -43,7 +43,7 @@ upage = 0
 
 SUP_BUTTONS = [
     [
-        Button.url("• Repo •", url="https://github.com/TeamUltroid/Ultroid"),
+        Button.url("• Repo •", url="https://github.com/userderdead/Ultroid"),
         Button.url("• Support •", url="t.me/UltroidSupport"),
     ],
 ]
@@ -53,9 +53,9 @@ SUP_BUTTONS = [
 
 @in_pattern(owner=True, func=lambda x: not x.text)
 async def inline_alive(o):
-    MSG = "• **Ultroid Userbot •**"
+    MSG = "• **AKKU Ultroid Userbot •**"
     WEB0 = InputWebDocument(
-        "https://telegra.ph/file/acd4f5d61369f74c5e7a7.jpg", 0, "image/jpg", []
+        "https://telegra.ph/file/0b60fa847086549786219.jpg", 0, "image/jpg", []
     )
     RES = [
         await o.builder.article(
@@ -63,7 +63,7 @@ async def inline_alive(o):
             text=MSG,
             include_media=True,
             buttons=SUP_BUTTONS,
-            title="Ultroid Userbot",
+            title="Akku Ultroid Userbot",
             description="Userbot | Telethon",
             url=TLINK,
             thumb=WEB0,

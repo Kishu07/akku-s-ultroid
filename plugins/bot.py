@@ -81,13 +81,13 @@ ULTPIC = INLINE_PIC or choice(ULTROID_IMAGES)
 buttons = [
     [
         Button.url(get_string("bot_3"), "https://github.com/TeamUltroid/Ultroid"),
-        Button.url(get_string("bot_4"), "t.me/UltroidSupport"),
+        Button.url(get_string("bot_4"), "t.me/userderdead"),
     ]
 ]
 
 # Will move to strings
 alive_txt = """
-The Ultroid Userbot
+Akku Ultroid
 
   ◍ Version - {}
   ◍ Py-Ultroid - {}

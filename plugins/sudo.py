@@ -53,13 +53,13 @@ async def _(ult):
     if id == ultroid_bot.uid:
         mmm = get_string("sudo_2")
     elif id in sudoers():
-        mmm = f"{name} `is already a SUDO User ...`"
+        mmm = f"{name} `gay is already a SUDO User ...`"
     else:
         udB.set_key("SUDO", "True")
         key = sudoers()
         key.append(id)
         udB.set_key("SUDOS", key)
-        mmm = f"**Added {name} as SUDO User**"
+        mmm = f"**Added {name} as GAY User**"
     await ult.eor(mmm, time=5)
 
 
@@ -94,7 +94,7 @@ async def _(ult):
         key = sudoers()
         key.remove(id)
         udB.set_key("SUDOS", key)
-        mmm = f"**Removed {name} from SUDO User(s)**"
+        mmm = f"**Removed {name} from GAY User(s)**"
     await ult.eor(mmm, time=5)
 
 

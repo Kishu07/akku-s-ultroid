@@ -87,7 +87,7 @@ buttons = [
 
 # Will move to strings
 alive_txt = """
-Akku Ultroid
+Akku's Ultroid
 
   ◍ Version - {}
   ◍ Py-Ultroid - {}

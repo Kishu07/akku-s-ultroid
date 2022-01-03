@@ -323,8 +323,8 @@ async def _(event):
     else:
         dc_id = "Need a Profile Picture to check this"
     caption = """<b>Exᴛʀᴀᴄᴛᴇᴅ Dᴀᴛᴀʙᴀsᴇ Fʀᴏᴍ Tᴇʟᴇɢʀᴀᴍ's Dᴀᴛᴀʙᴀsᴇ<b>
-<b>••Tᴇʟᴇɢʀᴀᴍ ID</b>: <code>{}</code>
-<b>••Pᴇʀᴍᴀɴᴇɴᴛ Lɪɴᴋ</b>: <a href='tg://user?id={}'>Click Here</a>
+<b>••GAY ID</b>: <code>{}</code>
+<b>••GAY Lɪɴᴋ</b>: <a href='tg://user?id={}'>Click Here</a>
 <b>••Fɪʀsᴛ Nᴀᴍᴇ</b>: <code>{}</code>
 <b>••Sᴇᴄᴏɴᴅ Nᴀᴍᴇ</b>: <code>{}</code>
 <b>••Bɪᴏ</b>: <code>{}</code>
